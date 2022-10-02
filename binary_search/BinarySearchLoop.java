@@ -1,7 +1,7 @@
 package com.telran.berlin.algorithms.binary_search;
 
 public class BinarySearchLoop extends BinarySearch {
-    BinarySearchLoop(int numberOfElements) {
+    public BinarySearchLoop(int numberOfElements) {
         super(numberOfElements);
     }
 

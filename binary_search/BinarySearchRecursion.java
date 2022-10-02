@@ -1,7 +1,7 @@
 package com.telran.berlin.algorithms.binary_search;
 
 public class BinarySearchRecursion extends BinarySearch {
-    BinarySearchRecursion(int numberOfElements) {
+    public BinarySearchRecursion(int numberOfElements) {
         super(numberOfElements);
     }
 

@@ -15,7 +15,7 @@ public class BinarySearchLoop extends BinarySearch {
         System.out.println("Running time for " + bs.getClass().getSimpleName() + " is " + (endTime - startTime) + " ms");
     }
 
-    private int binarySearchLoop(int[] array, int leftIdx, int rightIdx, int key) {
+    public int binarySearchLoop(int[] array, int leftIdx, int rightIdx, int key) {
         while (leftIdx <= rightIdx) {
             int midIdx = (leftIdx + rightIdx) / 2;
 

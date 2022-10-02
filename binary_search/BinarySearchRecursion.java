@@ -15,7 +15,7 @@ public class BinarySearchRecursion extends BinarySearch {
         System.out.println("Running time for " + bs.getClass().getSimpleName() + " is " + (endTime - startTime) + " ms");
     }
 
-    private int binarySearchRecursion(int[] arr, int leftIdx, int rightIdx, int key) {
+    public int binarySearchRecursion(int[] arr, int leftIdx, int rightIdx, int key) {
         if (rightIdx >= leftIdx) {
             int midIdx = (leftIdx + rightIdx) / 2;  // ------------
 

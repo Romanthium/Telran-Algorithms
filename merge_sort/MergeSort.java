@@ -37,17 +37,17 @@ public class MergeSort {
 
         merge(leftArray, 0, leftArray.length - 1);
         merge(rightArray, 0, rightArray.length - 1);
-        mergeSort(array, leftArray, rightArray, startIdx);
+        mergeSort(array, leftArray, rightArray);
 
     }
 
-    public static void mergeSort(int[] array, int[] leftArr, int[] rightArr, int startIdx) {
+    public static void mergeSort(int[] array, int[] leftArr, int[] rightArr) {
         int leftIdx = 0;
         int rightIdx = 0;
         int leftLength = leftArr.length;
         int rightLength = rightArr.length;
         int length = leftLength + rightLength;
-        for (int i = startIdx; i < length; i++) {
+        for (int i = 0; i < length; i++) {
             if (leftIdx >= leftLength) {
                 array[i] = rightArr[rightIdx];
                 rightIdx++;

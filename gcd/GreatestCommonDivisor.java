@@ -1,6 +1,6 @@
-package com.telran.berlin.algorithms.hw20220830;
+package com.telran.berlin.algorithms.gcd;
 
-public class GCD {
+public class GreatestCommonDivisor {
     public static void main(String[] args) {
         System.out.println(gcd(1071,462)); // 21
         System.out.println(gcd(462,1071)); // 21
